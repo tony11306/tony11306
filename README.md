@@ -1,11 +1,10 @@
-### Hi there 👋
+### Hi there 👋. This is tony11306's github
 
 <!--
 **tony11306/tony11306** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
@@ -14,3 +13,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+- 📫 Contact me with this email: `tony20020507@gmail.com`
+- 🐉 巴哈姆特小屋 / Bahamut home: [傳送門 Portal](https://home.gamer.com.tw/homeindex.php)，Will post some articles when having free time.
+
