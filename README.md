@@ -6,6 +6,9 @@
 
  ## Recent posts in my blog
 
+### [【手把手帶你學會爬蟲】#3 別著急！先來找 API！](https://home.gamer.com.tw/creationDetail.php?sn=5318039)
+> 前言           在第一篇有提到，爬蟲是指可以在網路上抓取資料的程式，不過有些時候網頁製作者已經給你整理好的資料了，專門提供給別人用的，如果再自己慢慢觀...
+
 ### [【手把手帶你學會爬蟲】#2  認識 HTML](https://home.gamer.com.tw/creationDetail.php?sn=5309733)
 > 前言...
 
@@ -17,6 +20,3 @@
 
 ### [程式作品【嘉義大學課表產生器】](https://home.gamer.com.tw/creationDetail.php?sn=5270588)
 > 嘉義大學課表產生器 前言...
-
-### [高效排序法之三 - 快速排序 (Quick sort)](https://home.gamer.com.tw/creationDetail.php?sn=5270517)
-> 在非常非常久之前，我寫過了合併排序、堆積排序這兩個 O(nlog(n)) 的排序演算法簡介，一直都沒寫到快速排序法，因為我懶。         ...
