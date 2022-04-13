@@ -10,12 +10,26 @@ OWNER = 'tony11306'
 BAHAMUT_DOMAIN = 'https://home.gamer.com.tw/'
 BAHAMUT_BLOG_URL = BAHAMUT_DOMAIN + 'creation.php?owner=' + OWNER
 
+BAHAMUT_BLOG_CREATION_API = f'https://api.gamer.com.tw/home/v1/creation_list.php?owner={OWNER}&page=1&keyword=0&type=kind1&search_type=&kind1=0&row=5'
+
 STATIC_README = '''
 ### Hi there 👋. This is tony11306's github
 
 - 📫 Contact me with this email: `tony20020507@gmail.com`
 - 🐉 巴哈姆特小屋 / Bahamut home: [傳送門 Portal](https://home.gamer.com.tw/homeindex.php)，Will post some articles when having free time.
 '''
+
+def get_five_recent_post_new_version():
+    CREATION_URL = 'https://home.gamer.com.tw/artwork.php?sn='
+    response = requests.get(BAHAMUT_BLOG_CREATION_API, headers=HEADERS)
+    response_json = response.json()
+    def to_article_imfo(creation):
+        return {
+            'title': creation['title'],
+            'brief': creation['content'],
+            'url': CREATION_URL + creation['csn']
+        }
+    return list(map(to_article_imfo, response_json['data']['list']))
 
 def get_five_recent_post():
     response = requests.get(url=BAHAMUT_BLOG_URL, headers=HEADERS)
@@ -45,5 +59,5 @@ def update_readme(posts):
 
 
 if __name__ == '__main__':
-    posts = get_five_recent_post()
+    posts = get_five_recent_post_new_version()
     update_readme(posts)
